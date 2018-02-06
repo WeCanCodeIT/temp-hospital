@@ -9,7 +9,7 @@ public class NurseTest {
 	
 	@Test
 	public void shouldDrawBlood() {
-		Nurse underTest = new Nurse();
+		Nurse underTest = new Nurse("","");
 		Patient patient = new Patient();
 		
 		int bloodsBefore = patient.getBloods();
@@ -22,7 +22,7 @@ public class NurseTest {
 	
 	@Test
 	public void shouldHaveSalary() {
-		Employee underTest = new Nurse();
+		Employee underTest = new Nurse("","");
 		
 		int salary = underTest.getSalary();
 		
@@ -31,7 +31,7 @@ public class NurseTest {
 	
 	@Test
 	public void shouldIncreasePatientHealth() {
-		Nurse underTest = new Nurse();
+		Nurse underTest = new Nurse("","");
 		Patient patient = new Patient();
 		
 		int healthBefore = patient.getHealth();

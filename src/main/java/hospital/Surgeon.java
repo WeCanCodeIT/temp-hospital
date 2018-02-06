@@ -7,10 +7,7 @@ public class Surgeon extends Doctor {
 	public Surgeon(String empNumber, String empName, boolean isOperating) {
 		super(empNumber, empName);
 		this.isOperating = isOperating;
-	}
-
-	public boolean isOperating() {
-		return isOperating;
+		
 	}
 
 }
